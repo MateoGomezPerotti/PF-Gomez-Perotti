@@ -39,7 +39,7 @@ li a:hover{
 main img{
     display: flex;
     flex-wrap: wrap;
-    width: 600px;
+    width: 550px;
     height: 450px;
     border: grey solid 3px;
     opacity: 0.8;
