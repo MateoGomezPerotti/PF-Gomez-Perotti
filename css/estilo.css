@@ -2,7 +2,7 @@
   background-color: black;
   color: rgb(136, 0, 0);
   margin: auto;
-  padding: 10;
+  padding: 0px;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   font-family: "Pixelify Sans", sans-serif;
@@ -38,7 +38,7 @@ header nav div ul li img {
   border-radius: 20%;
   margin: 20px;
   opacity: 0.5;
-  transform: scale(0.95, 0.95);
+  transform: scale(0.93, 0.93);
 }
 
 .nav-item:hover {
@@ -61,11 +61,14 @@ main .biografia p {
   width: 70%;
 }
 
+body {
+  background-color: black;
+}
+
 section {
-  background-color: white;
+  border: solid white 2px;
   color: rgb(136, 0, 0);
   text-align: center;
-  border: solid white 2px;
   width: 50%;
 }
 
@@ -113,7 +116,7 @@ section {
   grid-area: 4/1/5/2;
 }
 
-iframe {
+.video {
   border: rgb(136, 0, 0) solid 5px;
   margin: 5px;
   padding: 10px;
