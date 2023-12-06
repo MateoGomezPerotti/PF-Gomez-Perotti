@@ -3,10 +3,13 @@ $bordo: rgb(136, 0, 0);
 
 header{
     background-color: black;
-    margin: 10px;
-    border: 5px solid $bordo;
+    margin: 5px;
+    padding: 0px;
+    border: 3px solid $bordo;
+    width: 100%;
     nav{
         background-color: black;
+        width: 100%;
         div{
             background-color: black;
             ul{
@@ -23,6 +26,9 @@ header{
     }
 }
 
+.logo{
+    justify-self: left;
+}
 
 .nav-item{
     color: $bordo;
