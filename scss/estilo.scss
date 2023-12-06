@@ -54,13 +54,6 @@ main{
 body{
     background-color: black;
 }
-section{
-        border: solid white 2px;
-        color: $bordo;
-        text-align: center;
-        width: 50%;
-
-}
 .titulo{
     background-color: black;
     margin: 10px auto;
@@ -83,6 +76,14 @@ section{
   grid-auto-columns: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: $bordo;
+    text-align: center;
+    width: 200px;
 }
 
 .Gira { grid-area: 1 / 1 / 2 / 2; }
