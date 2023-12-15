@@ -34,7 +34,7 @@ header nav div ul li img {
 }
 
 .logo {
-  justify-self: left;
+  justify-content: end;
 }
 
 .nav-item {
@@ -135,7 +135,7 @@ body {
   justify-content: center;
 }
 
-@media screen and (min-width: 480) {
+@media screen and (min-width: 480px) {
   main {
     display: flex;
     text-align: center;
@@ -148,8 +148,14 @@ body {
   }
   header img {
     margin-bottom: 10px;
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (min-width: 1024px) and (min-width: 1440px) {
+  img {
+    width: 500px;
+    height: 580px;
   }
 }
 
