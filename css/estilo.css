@@ -181,7 +181,7 @@ body {
   opacity: 1;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   main {
     display: flex;
     text-align: center;
@@ -197,12 +197,66 @@ body {
     width: 150px;
     height: 150px;
   }
+  .vinilo {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .remera {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .disco {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .bufanda {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .tript {
+    width: 300px;
+    height: 150px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .vinilo {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .remera {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .disco {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .bufanda {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .tript {
+    width: 700px;
+    height: 350px;
+  }
 }
 @media screen and (min-width: 1024px) and (min-width: 1440px) {
-  img {
-    width: 500px;
-    height: 580px;
-  }
   .vinilo {
     width: 400px;
     height: 400px;
